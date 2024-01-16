@@ -1,0 +1,43 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .Black {
+  padding: 7px;
+  background-color: yellow;
+  color: #000000;
+  rotate: 350deg;
+} */
+
+.btn_1 {
+  padding: 7px;
+  background-color: yellow;
+  color: #000000;
+  rotate: 350deg;
+  font-size: large;
+}
+
+.navbar-brand {
+  padding: 15px;
+}
+
+.nav-middle {
+  text-decoration: none;
+}
+
+.navbar-mother {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+}
+
+.paragraph-1 {
+  display: flex;
+  flex-direction: column;
+  color: #ffff;
+  background-color: #000000;
+}

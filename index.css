@@ -1,0 +1,664 @@
+* {
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+nav > div .btn-1 {
+  background-color: yellow;
+  color: black;
+  rotate: -15deg;
+  padding: 10px;
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+nav > div span {
+  color: yellow;
+  font-size: 3rem;
+  justify-content: center;
+}
+
+nav > div .btn-2 {
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+}
+
+nav > div .btn-2:hover {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  gap: 10px;
+  border-bottom: 3px solid white;
+}
+
+.para-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  gap: 4px;
+}
+
+.navbar-3 {
+  background-color: blue;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  height: 17vh;
+  width: 100%;
+}
+
+.navbar-3 span {
+  color: #fff;
+}
+
+.navlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-3 input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 7px;
+}
+
+.search {
+  font-size: small;
+  background-color: #fff;
+  padding: 8px;
+}
+.search i {
+  color: black;
+}
+
+.navbar-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 28px;
+}
+
+.navbars-4 {
+  display: flex;
+  justify-content: flex-start;
+  background-color: white;
+  height: 12vh;
+  gap: 10px;
+  border-bottom: 3px solid rgba(221, 218, 218, 0.842);
+}
+
+.Category {
+  background-color: rgba(221, 218, 218, 0.842);
+  color: black;
+  padding: 12px;
+}
+
+.Category:focus-within {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+}
+
+.Category-body {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.Category-body1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.Category-body1:hover {
+  background-color: yellow;
+  border: 4px double blue;
+  padding: 4px;
+  transition: all 1s ease-in-out;
+}
+
+.catbody2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.catbody2:hover {
+  background-color: yellow;
+  border: 4px dotted blue;
+  padding: 4px;
+  transition: all 1s ease-in-out;
+}
+
+.catbody3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.catbody3:hover {
+  background-color: yellow;
+  border: 4px groove blue;
+  padding: 4px;
+  transition: all 1s ease-in-out;
+}
+
+.catbody4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.catbody4:hover {
+  background-color: yellow;
+  border: 4px dashed blue;
+  padding: 4px;
+  transition: all 1s ease-in-out;
+}
+
+.Category-body span {
+  display: flex;
+  color: rgb(134, 134, 134);
+  font-size: large;
+  gap: 10px;
+}
+
+.Category-body i {
+  color: rgb(134, 134, 134);
+}
+.contact-body {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding-left: 40rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  gap: 10px;
+}
+
+.contact i {
+  font-size: larger;
+  display: flex;
+  justify-self: flex-end;
+}
+
+.contact a {
+  display: flex;
+  justify-self: flex-end;
+  font-size: small;
+  color: #000;
+  text-decoration: none;
+}
+
+.first_section {
+  display: flex;
+  height: 80vh;
+  margin-top: 10px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  background-color: rgb(134, 134, 134);
+}
+
+.header_left_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.header_left_text {
+  line-height: 3px;
+}
+
+.Bestplace {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: blue;
+}
+
+.Play {
+  display: flex;
+
+  align-self: center;
+  height: 3px;
+  width: 12%;
+  background-color: blue;
+}
+
+.XboxConsoles {
+  font-size: xx-large;
+}
+
+.text-body {
+  color: #292727;
+  line-height: 20px;
+}
+
+.shopnow_btn {
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 5px;
+  background-color: orangered;
+  color: #fff;
+}
+
+.shopnow_btn:hover {
+  background-color: blue;
+  color: white;
+  font-size: large;
+}
+
+.header_dav {
+  position: relative;
+  padding-left: 20rem;
+}
+
+.header_left_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.header_left_btn {
+  border-radius: 50%;
+  padding: 1rem;
+  background-color: blue;
+  color: white;
+  border: 4px solid white;
+  font-size: large;
+  position: absolute;
+  top: 10px;
+  margin-left: 20rem;
+}
+
+.header_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: none;
+  margin-left: 1rem;
+  width: 24%;
+}
+
+.header_right_content {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.header_right_cont {
+  display: flex;
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(134, 134, 134);
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.header_right_text {
+  color: #fff;
+  margin-left: 5px;
+  line-height: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 16px;
+}
+
+.header_right_text2 {
+  line-height: 1rem;
+  color: white;
+  padding-left: 5px;
+}
+
+.header_right_text2 h2 {
+  line-height: 2rem;
+}
+
+.header_right_text2 span {
+  color: blue;
+}
+
+.phone {
+  height: 7vh;
+  width: 12%;
+  padding-left: 27px;
+  margin-top: 20px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(134, 134, 134);
+  padding: 15px;
+  margin-top: 10px;
+}
+
+.top1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+  border-right: 2px solid rgb(134, 134, 134);
+}
+
+.top1 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+.top1 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1px;
+}
+
+.top2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+  border-right: 2px solid rgb(134, 134, 134);
+}
+
+.top2 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+.top2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1px;
+}
+
+.top3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 150px;
+  border-right: 2px solid rgb(134, 134, 134);
+}
+
+.top3 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+.top3 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1px;
+}
+
+.top4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top4 i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+.top4 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  line-height: 1px;
+}
+
+.section-2 {
+  height: 3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Best {
+  display: flex;
+  gap: 20px;
+}
+
+.section-2 div {
+  display: flex;
+  justify-content: center;
+}
+
+.section-2 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2 button {
+  background-color: yellow;
+  border-radius: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.section-21 button {
+  background: none;
+  border: none;
+  color: blue;
+}
+
+footer {
+  background-color: blue;
+  color: white;
+  margin-top: 2rem;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  width: 100%;
+}
+
+.footer_content h3 {
+  color: white;
+}
+
+.footer_content span {
+  font-size: large;
+  line-height: 2px;
+  color: rgb(134, 134, 134);
+}
+
+.footer_cont {
+  display: flex;
+}
+
+.footer_cont input {
+  padding: 1rem;
+  border: 5px solid white;
+  width: 30rem;
+}
+
+.footer_cont button {
+  background-color: orangered;
+  color: #fff;
+  padding: 1rem;
+  border: 5px solid white;
+}
+
+.underline {
+  background-color: rgb(134, 134, 134);
+  margin-top: 1rem;
+  height: 1px;
+  width: 30%;
+}
+
+.foota {
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+  height: 40vh;
+}
+
+.foota_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 3rem;
+}
+
+.CLICKON {
+  display: flex;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.CLICKON_logo {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.CATEGORY_text {
+  display: flex;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.QUICK_text {
+  display: flex;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.DOWNLOAD_APP {
+  display: flex;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.POPULAR_TAG {
+  display: flex;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.btns1 button {
+  background-color: #000;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.btns2 button {
+  background-color: #000;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.btns3 button {
+  background-color: #000;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.btns4 button {
+  background-color: #000;
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+}
