@@ -327,3 +327,25 @@ section {
   color: white;
   padding-right: 5px;
 }
+
+.share_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.share_1 button {
+  font-size: 30px;
+  padding: 5px 35px;
+  margin: 8px;
+  border-radius: 30%;
+
+  background-color: rgba(88, 85, 85, 0.589);
+  color: white;
+}
+
+.share_1 button > i:hover {
+  color: blue;
+}
+
